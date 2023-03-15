@@ -12,11 +12,6 @@ Get_weatherInfo
     create session   myssion       ${base_url}
     ${response}=    GET On Session    request    myssion      /utilities/weather/city/${city}
 
-
-#    log to console    ${response.status_code}
-#    log to console    ${response.content}
-#    log to console    ${response.headers}
-
     log to console    ${response.status_code}
     log to console    ${response.content}
     log to console    ${response.headers}
