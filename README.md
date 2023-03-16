@@ -9,4 +9,4 @@ pre requirements:
     requests
     robotframework-requests
     robotframework-josonlibrary
-  
+    json library
